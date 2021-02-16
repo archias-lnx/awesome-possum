@@ -1,0 +1,17 @@
+column_limit: 80
+# use two spaces for indentation
+use_tab: false
+indent_width: 2
+continuation_indent_width: 2
+
+# indentation of arguments
+align_parameter: false
+align_args: false
+break_after_functioncall_lp: true
+
+# one line truncation should be you choice
+keep_simple_functions_one_line: false
+keep_simple_control_block_one_line: false
+
+# convert double quotes to single ones
+double_quote_to_single_quote: true

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="400px" height="400px" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <!-- <circle cx="200" cy="200" r="180" stroke="white" stroke-width="20" fill="transparent"></circle> -->
+    <text font-family="URW Gothic" fill="white" x="200" y="300" font-size="340" text-anchor="middle" vertical-align="middle">2</text>
+  </g>
+</svg>

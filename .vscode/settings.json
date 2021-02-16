@@ -1,0 +1,18 @@
+{
+    "vscode-lua-format.configPath": ".lua-format",
+    "Lua.runtime.path": [
+        "?.lua",
+        "?/init.lua",
+        "?/?.lua",
+    ],
+    "Lua.workspace.library": {
+        "/usr/share/awesome/lib": true,
+    },
+    "Lua.diagnostics.globals": [
+        "awesome",
+        "client",
+        "screen",
+        "tag",
+        "mouse"
+    ]
+}

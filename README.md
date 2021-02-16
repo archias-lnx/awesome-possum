@@ -6,12 +6,12 @@
 <table border="0">
  <tr>
     <td>
-    <img src="./images/aw_tile_vol.png"  alt="1" height = 300px>
-    <img src="./images/aw_notif.png"  alt="1" height = 300px>
+    <img src="./images/aw_tile_vol.png"  alt="1" height = 196px width = 350px>
+    <img src="./images/aw_notif.png"  alt="1" height = 196px width = 350px>
     </td>
     <td>
-    <img src="./images/aw_exit.png"  alt="1" height = 300px>
-    <img src="./images/aw_lock.png"  alt="1" height = 300px>
+    <img src="./images/aw_exit.png"  alt="1"  height = 196px width = 350px>
+    <img src="./images/aw_lock.png"  alt="1"  height = 196px width = 350px>
     </td>
  </tr>
 </table>

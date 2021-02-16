@@ -1,4 +1,4 @@
-local addtional_path_prefix = os.getenv('HOME') .. '/Git/awesome-wm-config/'
+local addtional_path_prefix = os.getenv('HOME') .. '/Git/awesome-possum/'
 local additonal_path = ';' .. addtional_path_prefix .. '?/init.lua;' ..
                          addtional_path_prefix .. '?.lua'
 package.path = package.path .. additonal_path

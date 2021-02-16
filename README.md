@@ -40,7 +40,7 @@ Images zoom when hovering.
 
 ## Installation:
 
-1. Clone this git repo at some directory you desire (I clone it into `~/Git/awesome-wm-git`)
+1. Clone this git repo at some directory you desire (I clone it into `~/Git/awesome-possum`)
 2. Put at least `rc.lua` and `configuration/picom.conf`, `liblua_pam.so` and `autostart.sh` into `~/.config/awesome/` .
  Awesome will first search in `~/.config/awesome` for all the files. If it does not find it there it will search in other directorys specified in line 1 of `rc.lua`.
  If you like to change keybindings, theme, widgets or anything else, copy the file also in `~/.config/awesome/` so it will be loaded instead of the default config.
@@ -60,3 +60,4 @@ TODOs:
 * Lockscreen catches events of mouse and keyboard to restart the timer for switching of the screen
 * Launch or Switch for Clients such as Firefox
 * Scratchpad stays scratchpad after reload
+* Init taglist with correct symbols (not just after first usage)

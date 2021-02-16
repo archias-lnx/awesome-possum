@@ -25,6 +25,7 @@ lock-screen, notification center, volume- and brightness-popup and calender widg
 
 The panel can be configured with a very simple syntax.
 Tag list shows the currently focused task on each tag.
+Images zoom when hovering.
 
 # Set it up
 

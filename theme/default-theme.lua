@@ -18,7 +18,7 @@ local theme = {}
 theme.icons = theme_dir .. '/icons/'
 
 -- Font
-theme.font = 'URW Gothic'
+theme.font = 'SF Pro Display'
 theme.font_bold = theme.font .. ' Bold'
 theme.font_heavy = theme.font .. ' Heavy'
 -- Noto Sans Grantha

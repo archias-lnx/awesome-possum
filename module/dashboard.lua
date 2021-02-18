@@ -68,7 +68,7 @@ local build_screen_dashboard = function(args)
     timeout = 10,
     autostart = true,
     callback = function()
-      if dashboard.visible then
+      if dashboard.visible and args.loopcheck_function ~= nil then
         awful.spawn.with_shell('xset dpms force off')
         awesome.emit_signal('dashboard_lockscreen::timer:rerun')
       end

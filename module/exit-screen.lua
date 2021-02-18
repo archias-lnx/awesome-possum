@@ -44,8 +44,8 @@ end
 exit_widget.suspend_command = function()
   awesome.emit_signal('module::exit_screen:hide')
   awesome.emit_signal('module::lock_screen:show')
-  awful.spawn.with_shell('systemctl suspend')
-  -- awful.spawn.with_shell('sudo nas-umount ; umount-modules ; systemctl suspend')
+  -- awful.spawn.with_shell('systemctl suspend')
+  awful.spawn.with_shell('sudo nas-umount ; umount-modules ; systemctl suspend')
 end
 exit_widget.lock_command = function()
   awesome.emit_signal('module::exit_screen:hide')
@@ -54,10 +54,10 @@ end
 exit_widget.exit_command = function()
   awful.spawn.with_shell('killall -q awesome')
 end
-exit_widget.poweroff_command = function() awful.spawn.with_shell('sudo poweroff') end
--- exit_widget.poweroff_command = function() awful.spawn.with_shell('sudo nas-umount ; umount-modules ; sudo poweroff') end
-exit_widget.reboot_command = function() awful.spawn.with_shell('sudo reboot') end
--- exit_widget.reboot_command = function() awful.spawn.with_shell('sudo nas-umount ; umount-modules ; sudo reboot') end
+-- exit_widget.poweroff_command = function() awful.spawn.with_shell('sudo poweroff') end
+exit_widget.poweroff_command = function() awful.spawn.with_shell('sudo nas-umount ; umount-modules ; sudo poweroff') end
+-- exit_widget.reboot_command = function() awful.spawn.with_shell('sudo reboot') end
+exit_widget.reboot_command = function() awful.spawn.with_shell('sudo nas-umount ; umount-modules ; sudo reboot') end
 
 exit_widget.build_button = function(args, icon, function_table, name)
 

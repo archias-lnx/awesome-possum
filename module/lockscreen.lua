@@ -243,11 +243,11 @@ end
 
 -- commands
 lock_widget.suspend_command = function()
-  awful.spawn.with_shell('systemctl suspend')
-  -- awful.spawn.with_shell('sudo nas-umount ; umount-modules ; systemctl suspend')
+  -- awful.spawn.with_shell('systemctl suspend')
+  awful.spawn.with_shell('sudo nas-umount ; umount-modules ; systemctl suspend')
 end
-lock_widget.poweroff_command = function() awful.spawn.with_shell('sudo poweroff') end
--- lock_widget.poweroff_command = function() awful.spawn.with_shell('sudo nas-umount ; umount-modules ; sudo poweroff') end
+-- lock_widget.poweroff_command = function() awful.spawn.with_shell('sudo poweroff') end
+lock_widget.poweroff_command = function() awful.spawn.with_shell('sudo nas-umount ; umount-modules ; sudo poweroff') end
 
 lock_widget.build_leave_widget = function()
   local button_args = {}

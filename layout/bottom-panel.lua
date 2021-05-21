@@ -21,8 +21,8 @@ local status_panel = function(s)
       left_widgets = {nil},
       middle_widgets = {
         'app-search-toggler', sep, 'taglist', sep, 'network-widget',
-        'battery-widget', 'clock', sep, 'notification-panel-toggler',
-        'end-session', 'layout'
+        'clock', sep, 'notification-panel-toggler',
+        'battery-widget', 'end-session', 'layout'
       },
       right_widgets = {nil}
     })

@@ -80,7 +80,7 @@ return  wibox.widget {
   {
 
     {
-      font = 'SF Pro Text Regular 12',
+      font = beautiful.font .. ' 12',
       date = os.date('*t'),
       spacing = dpi(10),
       start_sunday = true,

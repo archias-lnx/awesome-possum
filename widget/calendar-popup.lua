@@ -78,7 +78,7 @@ calendar_popup.build_dashboard = function(args)
   local cal = wibox.widget {
     date = os.date('*t'),
     fn_embed = decorate_cell,
-    font = 'SF Pro Text Bold 12',
+    font = beautiful.font .. ' 12',
     widget = wibox.widget.calendar.month
   }
 
